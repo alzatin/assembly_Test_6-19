@@ -23,8 +23,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.41391941391941395,
-            "y": 0.6175548589341693,
+            "x": 0.3699633699633699,
+            "y": 0.47648902821316613,
             "uniqueID": 1719765004067,
             "ioValues": [
                 {
@@ -32,21 +32,6 @@
                     "ioValue": 10
                 }
             ]
-        },
-        {
-            "atomType": "Readme",
-            "name": "README",
-            "x": 0.6153846153846154,
-            "y": 0.7492163009404389,
-            "uniqueID": 1719765009230,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1719765018038
-                }
-            ],
-            "readmeText": "believe",
-            "global": true
         },
         {
             "atomType": "Rectangle",
@@ -73,13 +58,6 @@
             "ap2Primary": false,
             "ap1ID": 1719765004067,
             "ap2ID": 1719765001786
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1719765018038,
-            "ap2ID": 1719765009230
         }
     ],
     "unitsIndex": 0,
@@ -87,16 +65,10 @@
     "compiledBom": [],
     "projectSVGs": [
         {
-            "uniqueID": 1719765007650,
-            "readMeText": "in me\n \n\n![readme](/readme1719765007650.svg)\n\n",
-            "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.000001 -6.000001 12.000002 12.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M -5 0 A 5 5 0 0 0 5 0 A 5 5 0 0 0 -5 0 Z\" />\n</svg>",
-            "sha": "23f320c9c097c5610d8681c943f68eb61776fe2a"
-        },
-        {
             "uniqueID": 1719765009230,
             "readMeText": "believe \n\n![readme](/readme1719765009230.svg)\n\n",
             "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.000001 -6.000001 12.000002 12.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M -5 -5 L 5 -5 L 5 5 L -5 5 L -5 -5 Z\" />\n</svg>",
-            "sha": "23f320c9c097c5610d8681c943f68eb61776fe2a"
+            "sha": "3801faf0c50363d70c20a81e1fb54532bfd12ed9"
         }
     ],
     "filetypeVersion": 1

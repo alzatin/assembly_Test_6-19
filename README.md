@@ -6,11 +6,5 @@
 
 
 
- believe 
-
-![readme](/readme1719765009230.svg)
-
-
-
-
+ 
 
