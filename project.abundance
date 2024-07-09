@@ -23,8 +23,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.3699633699633699,
-            "y": 0.47648902821316613,
+            "x": 0.20887445887445888,
+            "y": 0.2613981762917933,
             "uniqueID": 1719765004067,
             "ioValues": [
                 {
@@ -36,8 +36,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.42124542124542125,
-            "y": 0.799373040752351,
+            "x": 0.17857142857142858,
+            "y": 0.574468085106383,
             "uniqueID": 1719765018038,
             "ioValues": [
                 {
@@ -46,6 +46,66 @@
                 },
                 {
                     "name": "y length",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Join",
+            "name": "Assembly",
+            "x": 0.3885281385281385,
+            "y": 0.4772036474164133,
+            "uniqueID": 1720542059121,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 1719765004067
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 1720542071715
+                }
+            ],
+            "unionType": "Assembly"
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.2597402597402597,
+            "y": 0.5227963525835866,
+            "uniqueID": 1720542071715,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1719765018038
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 5
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.5432900432900433,
+            "y": 0.6534954407294833,
+            "uniqueID": 1720542091155,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1720542059121
+                },
+                {
+                    "name": "height",
                     "ioValue": 10
                 }
             ]
@@ -58,18 +118,37 @@
             "ap2Primary": false,
             "ap1ID": 1719765004067,
             "ap2ID": 1719765001786
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1719765004067,
+            "ap2ID": 1720542059121
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1719765018038,
+            "ap2ID": 1720542071715
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1720542059121,
+            "ap2ID": 1720542091155
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 1720542071715,
+            "ap2ID": 1720542059121
         }
     ],
-    "unitsIndex": 0,
     "fileTypeVersion": 1,
     "compiledBom": [],
-    "projectSVGs": [
-        {
-            "uniqueID": 1719765009230,
-            "readMeText": "believe \n\n![readme](/readme1719765009230.svg)\n\n",
-            "svg": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-6.000001 -6.000001 12.000002 12.000002\" fill=\"none\" stroke=\"black\" stroke-width=\"0.6%\" vector-effect=\"non-scaling-stroke\">\n    <path d=\"M -5 -5 L 5 -5 L 5 5 L -5 5 L -5 -5 Z\" />\n</svg>",
-            "sha": "3801faf0c50363d70c20a81e1fb54532bfd12ed9"
-        }
-    ],
     "filetypeVersion": 1
 }
