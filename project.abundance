@@ -13,7 +13,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1719765001786,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1720543411135
+                }
+            ]
         },
         {
             "atomType": "Circle",
@@ -296,6 +301,13 @@
             "ap2Primary": false,
             "ap1ID": 1720543166337,
             "ap2ID": 1720542328483
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1720543411135,
+            "ap2ID": 1719765001786
         },
         {
             "ap1Name": "geometry",
