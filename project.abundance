@@ -13,12 +13,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1719765001786,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1719765004067
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Circle",
@@ -29,7 +24,7 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 10
+                    "ioValue": 9
                 }
             ]
         },
@@ -96,29 +91,40 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5432900432900433,
-            "y": 0.6534954407294833,
+            "x": 0.6450216450216449,
+            "y": 0.6231003039513677,
             "uniqueID": 1720542091155,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1720542059121
+                    "ioValue": ""
                 },
                 {
                     "name": "height",
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Loft",
+            "name": "Loft",
+            "x": 0.5562770562770563,
+            "y": 0.44984802431610943,
+            "uniqueID": 1720542328483,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": ""
+                },
+                {
+                    "name": "3D shape 1",
+                    "ioValue": ""
+                }
+            ],
+            "closedSelection": 0
         }
     ],
     "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 1719765004067,
-            "ap2ID": 1719765001786
-        },
         {
             "ap1Name": "geometry",
             "ap2Name": "3D shape 1",
@@ -132,13 +138,6 @@
             "ap2Primary": true,
             "ap1ID": 1719765018038,
             "ap2ID": 1720542071715
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1720542059121,
-            "ap2ID": 1720542091155
         },
         {
             "ap1Name": "geometry",
