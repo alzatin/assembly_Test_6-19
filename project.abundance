@@ -250,19 +250,6 @@
             "SVGwidth": 10
         },
         {
-            "atomType": "Text",
-            "name": "Text",
-            "x": 0.5244040862656073,
-            "y": 0.7082066869300911,
-            "uniqueID": 1720804687988,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Gcode",
             "name": "Gcode",
             "x": 0.6208853575482407,
@@ -288,6 +275,19 @@
                 {
                     "name": "safe height",
                     "ioValue": 6
+                }
+            ]
+        },
+        {
+            "atomType": "Text",
+            "name": "Text",
+            "x": 0.5232690124858116,
+            "y": 0.723404255319149,
+            "uniqueID": 1720804834935,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
                 }
             ]
         }
