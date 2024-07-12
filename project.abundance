@@ -286,8 +286,12 @@
             "uniqueID": 1720804834935,
             "ioValues": [
                 {
-                    "name": "diameter",
+                    "name": "width",
                     "ioValue": 10
+                },
+                {
+                    "name": "Text",
+                    "ioValue": "Lorem Ipsum"
                 }
             ]
         }
