@@ -245,7 +245,51 @@
             "uniqueID": 1720551190061,
             "ioValues": [],
             "fileName": "Import_Test (2).svg",
-            "type": "SVG"
+            "type": "SVG",
+            "SVGdepth": 10,
+            "SVGwidth": 10
+        },
+        {
+            "atomType": "Text",
+            "name": "Text",
+            "x": 0.5244040862656073,
+            "y": 0.7082066869300911,
+            "uniqueID": 1720804687988,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.6208853575482407,
+            "y": 0.6808510638297872,
+            "uniqueID": 1720804692159,
+            "ioValues": [
+                {
+                    "name": "tool size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "passes",
+                    "ioValue": 6
+                },
+                {
+                    "name": "speed",
+                    "ioValue": 500
+                },
+                {
+                    "name": "tabs",
+                    "ioValue": "true"
+                },
+                {
+                    "name": "safe height",
+                    "ioValue": 6
+                }
+            ]
         }
     ],
     "allConnectors": [
