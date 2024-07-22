@@ -284,16 +284,8 @@
             "x": 0.52015732546706,
             "y": 0.696048632218845,
             "uniqueID": 1720804834935,
-            "ioValues": [
-                {
-                    "name": "Font Size",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Text",
-                    "ioValue": "hell yeah"
-                }
-            ]
+            "ioValues": [],
+            "fontFamily": "ROBOTO"
         },
         {
             "atomType": "Extrude",
